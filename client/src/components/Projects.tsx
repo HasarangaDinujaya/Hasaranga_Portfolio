@@ -2,19 +2,19 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github, Sparkles } from "lucide-react";
-import dashboardImg from "@assets/generated_images/Project_dashboard_screenshot_ae083041.png";
+import GymnasiumImg from "@assets/generated_images/image1.png";
 import ecommerceImg from "@assets/generated_images/E-commerce_project_screenshot_dc32c4dc.png";
 import taskAppImg from "@assets/generated_images/Task_management_app_screenshot_c316766a.png";
 
 const projects = [
   {
     id: 1,
-    title: "Analytics Dashboard",
+    title: "Gymnasium And Ground Booking System",
     description:
-      "A comprehensive analytics platform with real-time data visualization, custom reporting, and team collaboration features.",
-    image: dashboardImg,
-    tags: ["React", "TypeScript", "Node.js", "PostgreSQL"],
-    github: "https://github.com",
+      "A comprehensive platform for managing gymnasium and ground bookings, with features for user management, scheduling, and inventory tracking.",
+    image: GymnasiumImg,
+    tags: ["React", "JavaScript", "Django", "Postman", "PostgreSQL"],
+    github: "https://github.com/TKBK531/gym_application",
     demo: "https://demo.example.com",
     color: "blue",
   },
