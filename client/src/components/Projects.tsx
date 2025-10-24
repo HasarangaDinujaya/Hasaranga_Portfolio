@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github, Sparkles } from "lucide-react";
 import GymnasiumImg from "@assets/generated_images/image1.png";
-import ecommerceImg from "@assets/generated_images/E-commerce_project_screenshot_dc32c4dc.png";
+import SigneaseImg from "@assets/generated_images/image2.png";
 import taskAppImg from "@assets/generated_images/Task_management_app_screenshot_c316766a.png";
 
 const projects = [
@@ -20,22 +20,22 @@ const projects = [
   },
   {
     id: 2,
-    title: "E-Commerce Platform",
+    title: "Signease",
     description:
-      "Full-featured online store with payment integration, inventory management, and advanced product filtering.",
-    image: ecommerceImg,
-    tags: ["Next.js", "Stripe", "MongoDB", "Tailwind CSS"],
-    github: "https://github.com",
-    demo: "https://demo.example.com",
+      "Built a secure digital signature platform for online document signing and management.",
+    image: SigneaseImg,
+    tags: ["React", "JavaScript", "PHP", "Tailwind CSS"],
+    github: "https://github.com/HasarangaDinujaya/Signease_Project",
+    demo: "https://drive.google.com/file/d/1o3qWE2fpWi6uXkiDVLm90SYvp9SO_Ktg/view",
     color: "emerald",
   },
   {
     id: 3,
-    title: "Task Management App",
+    title: "Currency Recognition and Conversion",
     description:
-      "Collaborative project management tool with kanban boards, time tracking, and team productivity insights.",
+      "Implemented an image processing system capable of recognizing currency notes and converting them into other currencies.",
     image: taskAppImg,
-    tags: ["React", "Express", "WebSocket", "Redis"],
+    tags: ["Python", "OpenCV"],
     github: "https://github.com",
     demo: "https://demo.example.com",
     color: "purple",

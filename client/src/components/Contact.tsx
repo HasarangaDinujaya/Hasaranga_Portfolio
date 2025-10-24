@@ -51,7 +51,7 @@ export default function Contact() {
             {/* Contact Form */}
             <div className="lg:col-span-3 space-y-6">
               <Card className="p-8 md:p-10 bg-white/50 dark:bg-slate-900/50 backdrop-blur-sm border-2 hover:border-blue-300 dark:hover:border-blue-700 transition-all duration-300 shadow-xl hover:shadow-2xl">
-                <div className="space-y-6">
+                <form className="space-y-6" onSubmit={handleSubmit}>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div className="space-y-2">
                       <Label htmlFor="name" className="text-sm font-semibold text-slate-700 dark:text-slate-300">Full Name</Label>
@@ -90,7 +90,7 @@ export default function Contact() {
                   </div>
 
                   <Button 
-                    onClick={handleSubmit}
+                    type="submit"
                     size="lg"
                     className="w-full h-14 text-lg font-semibold bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white shadow-lg hover:shadow-xl transition-all duration-300 group" 
                     onMouseEnter={() => setIsHovered(true)}
@@ -100,7 +100,7 @@ export default function Contact() {
                     Send Message
                     <ArrowRight className={`h-5 w-5 ml-2 transition-transform duration-300 ${isHovered ? 'translate-x-1' : ''}`} />
                   </Button>
-                </div>
+                </form>
               </Card>
             </div>
 
