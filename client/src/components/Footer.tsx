@@ -15,7 +15,7 @@ export default function Footer() {
               asChild
               data-testid="link-footer-github"
             >
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/HasarangaDinujaya" target="_blank" rel="noopener noreferrer">
                 <Github className="h-5 w-5" />
               </a>
             </Button>
@@ -25,7 +25,7 @@ export default function Footer() {
               asChild
               data-testid="link-footer-linkedin"
             >
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/hasaranga-dinujaya-344b44197/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="h-5 w-5" />
               </a>
             </Button>

@@ -4,7 +4,9 @@ import { Button } from "@/components/ui/button";
 import { ExternalLink, Github, Sparkles } from "lucide-react";
 import GymnasiumImg from "@assets/generated_images/image1.png";
 import SigneaseImg from "@assets/generated_images/image2.png";
-import taskAppImg from "@assets/generated_images/Task_management_app_screenshot_c316766a.png";
+import CurrencyImg from "@assets/generated_images/image3.png";
+import WeatherImg from "@assets/generated_images/image4.png";
+import TaskImg from "@assets/generated_images/image5.png";
 
 const projects = [
   {
@@ -34,11 +36,33 @@ const projects = [
     title: "Currency Recognition and Conversion",
     description:
       "Implemented an image processing system capable of recognizing currency notes and converting them into other currencies.",
-    image: taskAppImg,
+    image: CurrencyImg,
     tags: ["Python", "OpenCV"],
     github: "https://github.com",
     demo: "https://demo.example.com",
     color: "purple",
+  },
+  {
+    id: 4,
+    title: "Weather-App",
+    description:
+      "A web application that provides real-time weather updates and forecasts.",
+    image: WeatherImg,
+    tags: ["JavaScript", "HTML", "CSS", "APIs"],
+    github: "https://github.com/HasarangaDinujaya/Weather-App",
+    demo: "https://hasarangadinujaya.github.io/Weather-App/",
+    color: "blue",
+  },
+  {
+    id: 4,
+    title: "Task Submission Portal",
+    description:
+      "A web application that allows users to submit and manage tasks efficiently.",
+    image: TaskImg,
+    tags: ["JavaScript", "HTML", "CSS"],
+    github: "https://github.com/HasarangaDinujaya/Task-Submission-Portal",
+    demo: "https://hasarangadinujaya.github.io/Task-Submission-Portal/",
+    color: "emerald",
   },
 ];
 
